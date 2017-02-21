@@ -10,7 +10,7 @@ parserOptions:
   sourceType: module
 
 extends:
-  - 'airbnb-base'
+  - 'airbnb-base/legacy'
   - plugin:import/errors
   - plugin:import/warnings
   
