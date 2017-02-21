@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/PeresvetS/project-lvl1-s69#readme",
   "dependencies": {
-    "readline-sync": ""
+    "readline-sync": "",
+     "eslint-config-airbnb-base": ""
   },
   "devDependencies": {
     "babel-cli": "",
