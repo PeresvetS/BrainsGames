@@ -25,16 +25,16 @@
   },
   "homepage": "https://github.com/PeresvetS/project-lvl1-s69#readme",
   "dependencies": {
-    "readline-sync": "*"
+    "readline-sync": ""
   },
   "devDependencies": {
-    "babel-cli": "*",
-    "babel-core": "*",
-    "babel-eslint": "*",
-    "babel-preset-env": "*",
-    "babel-preset-stage-0": "*",
-    "eslint": "*",
-    "eslint-config-airbnb-base": "*",
-    "eslint-plugin-import": "*"
+    "babel-cli": "",
+    "babel-core": "",
+    "babel-eslint": "",
+    "babel-preset-env": "",
+    "babel-preset-stage-0": "",
+    "eslint": "",
+    "eslint-config-airbnb-base": "",
+    "eslint-plugin-import": ""
   }
 }
