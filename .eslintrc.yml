@@ -2,7 +2,6 @@
 
   env:
     node: true
-    jest: true
 
    parser: babel-eslint
 
@@ -15,3 +14,6 @@
     - 'airbnb-base'
     - plugin:import/errors
     - plugin:import/warnings
+
+  rules:
+    no-console: 0

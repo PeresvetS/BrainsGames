@@ -1,3 +1,3 @@
-import readlineSync from '../node_modules/readline-sync/lib/readline-sync';
+import readlineSync from'readline-sync';
 
 export default readlineSync;

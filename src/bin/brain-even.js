@@ -21,10 +21,10 @@ const game = () => {
 
 	const checkAnswer = (value, answer) => {
 		if (value % 2 === 0 && answer === 'yes') {
-			return "Correct!";
+			return 'Correct!';
 		}
 		else if (value % 2 !== 0 && answer === 'no') {
-			return "Correct!";
+			return 'Correct!';
 		}
 		else if (value % 2 === 0 && answer === 'no') {
 			return '"no" is wrong answer ;(. Correct answer was "yes". \nLet\'s try again, ' + UserName + '!';
