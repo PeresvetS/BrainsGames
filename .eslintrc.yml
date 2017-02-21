@@ -11,7 +11,7 @@ parserOptions:
   sourceType: module
 
 extends:
-  - 'airbnb/base'
+  - 'airbnb'
   - plugin:import/errors
   - plugin:import/warnings
   
