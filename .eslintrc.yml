@@ -1,13 +1,9 @@
 ---
 
-<<<<<<< HEAD
-  env:
-    node: true
-    jest: true
-=======
+
 env:
   node: true
->>>>>>> origin/master
+
 
 parser: babel-eslint
 
