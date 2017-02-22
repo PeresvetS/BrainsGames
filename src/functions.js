@@ -13,6 +13,17 @@ export const commonDivider = (num1, num2) => {
   return commonDivider(num2, num1 % num2);
 };
 
+export const balance = (number) => {
+  const arrNum = number.toString().split('').map(num => Number(num)).sort();
+  while (arrNum[arrNum.length - 1] - arrNum[0] > 1) {
+    arrNum[arrNum.length - 1] -= 1;
+    arrNum[0] += 1;
+    arrNum.sort();
+  }
+  return arrNum.join('');
+};
+
+
 export const randomSign = () => {
   const number = randomNumber(1, 3);
   switch (number) {
