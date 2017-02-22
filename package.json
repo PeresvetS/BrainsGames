@@ -1,6 +1,6 @@
 {
   "name": "brain-games-primary",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Hexlet project",
   "main": "dist/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "babel-preset-stage-0": "*",
     "eslint": "*",
     "eslint-plugin-import": "*",
-    "eslint-config-airbnb-base": "*",
+    "eslint-config-airbnb-base": "^11.1.0",
     "babel-eslint": "*"
   }
 }
