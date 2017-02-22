@@ -1,3 +1,4 @@
 import readlineSync from 'readline-sync';
+import { cons, car, cdr, toString } from 'hexlet-pairs';
 
-export default readlineSync;
+export { cons, car, cdr, toString, readlineSync };

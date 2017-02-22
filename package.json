@@ -1,6 +1,6 @@
 {
   "name": "brain-games-primary",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "Hexlet project",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
   },
   "homepage": "https://github.com/PeresvetS/project-lvl1-s69#readme",
   "dependencies": {
-    "readline-sync": "*"
+    "readline-sync": "*",
+    "hexlet-pairs": "*"
   },
   "devDependencies": {
     "babel-cli": "*",
@@ -33,8 +35,8 @@
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*",
     "eslint": "*",
-    "eslint-config-airbnb-base": "*",
     "eslint-plugin-import": "*",
+    "eslint-config-airbnb-base": "*",
     "babel-eslint": "*"
   }
 }
