@@ -1,10 +1,17 @@
-import { readlineSync } from './index';
+import readlineSync from 'readline-sync';
 
-export const UserName = () => readlineSync.question('May I have your name? ');
+export const userName = () => readlineSync.question('May I have your name? ');
+
+export const randomNumber = (min, max) => (Math.floor(Math.random() * ((max - min) + 1)) + min);
 
 export const userAnswer = expression => readlineSync.question(`Question: ${expression} \nYour answer: `);
 
-export const randomNumber = (min, max) => (Math.floor(Math.random() * ((max - min) + 1)) + min);
+export const commonDivider = (num1, num2) => {
+  if (num2 === 0) {
+    return num1;
+  }
+  return commonDivider(num2, num1 % num2);
+};
 
 export const randomSign = () => {
   const number = randomNumber(1, 3);
