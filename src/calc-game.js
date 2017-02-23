@@ -1,13 +1,38 @@
-import { cons, car, cdr } from 'hexlet-pairs';
-import { randomNumber, randomSign, correctExpression } from './functions';
-import gameFlow from './index';
+import { randomNumber } from './functions';
+import gameFlow from './';
 
 const task = 'What is the result of the expression?';
-const expression = () => {
-  const pairs = cons(randomNumber(1, 25), randomNumber(1, 25));
-  const sign = randomSign();
-  const randomExpression = [car(pairs), sign, cdr(pairs)].join(' ');
-  const correctAnswer = correctExpression(car(pairs), cdr(pairs), sign).toString();
-  return cons(randomExpression, correctAnswer);
+
+export const randomSign = () => {
+  const number = randomNumber(1, 3);
+  switch (number) {
+    case 1:
+      return '+';
+    case 2:
+      return '-';
+    default:
+      return '*';
+  }
 };
+
+export const correctExpression = (num1, num2, sign) => {
+  switch (sign) {
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    default:
+      return num1 * num2;
+  }
+};
+
+const expression = () => {
+  const num1 = randomNumber(1, 25);
+  const num2 = randomNumber(1, 25);
+  const sign = randomSign();
+  const randomExpression = [num1, sign, num2].join(' ');
+  const correctAnswer = correctExpression(num1, num2, sign).toString();
+  return [randomExpression, correctAnswer];
+};
+
 export default () => { gameFlow(task, expression); };
