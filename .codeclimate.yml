@@ -2,6 +2,9 @@ engines:
   eslint:
     enabled: true
     channel: "eslint-3"
+    exclude_fingerprints:
+    - cfee85432631e6611733e03940fcd231
+    - 02e7e870efae3528cb8198cf20270c4e
   fixme:
     enabled: true
 ecmaFeatures:
