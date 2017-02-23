@@ -1,7 +1,7 @@
 import { randomNumber } from '../functions';
 import gameFlow from '../';
 
-const task = 'Find the greatest common divisor of given numbers.';
+const task = 'Find the greatest common divisor of given numbers.\n';
 
 export const commonDivider = (num1, num2) => {
   if (num2 === 0) {

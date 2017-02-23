@@ -1,7 +1,7 @@
 import { randomNumber } from '../functions';
 import gameFlow from '../';
 
-const task = 'What is the result of the expression?';
+const task = 'What is the result of the expression?\n';
 
 export const randomSign = () => {
   const number = randomNumber(1, 3);

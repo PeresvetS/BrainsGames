@@ -1,7 +1,7 @@
 import { randomNumber } from '../functions';
 import gameFlow from '../';
 
-const task = 'Answer "yes" if number odd otherwise answer "no".';
+const task = 'Answer "yes" if number odd otherwise answer "no".\n';
 
 const expression = () => {
   const newRandNum = randomNumber(1, 100);

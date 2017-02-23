@@ -1,7 +1,7 @@
 import { randomNumber } from '../functions';
 import gameFlow from '../';
 
-const task = 'What number is missing in this progression?';
+const task = 'What number is missing in this progression?\n';
 
 const progression = (num1, num2) => {
   const iter = (item, acc) => {

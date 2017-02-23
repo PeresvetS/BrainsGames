@@ -1,7 +1,7 @@
 import { randomNumber } from '../functions';
 import gameFlow from '../';
 
-const task = 'Answer "yes" if the number is simple otherwise answer "no".';
+const task = 'Answer "yes" if the number is simple otherwise answer "no".\n';
 
 const isSimpleNum = (num) => {
   const iter = (item, acc) => {

@@ -1,7 +1,7 @@
 import { randomNumber } from '../functions';
 import gameFlow from '../';
 
-const task = 'Balance the given number.';
+const task = 'Balance the given number.\n';
 
 export const balance = (number) => {
   const arrNum = number.toString().split('').map(num => Number(num)).sort();

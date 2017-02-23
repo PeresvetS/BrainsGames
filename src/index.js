@@ -1,6 +1,6 @@
 import { userAnswer, userName } from './functions';
 
-const greeting = 'Welcome to the Brain Games!';
+const greeting = '\nWelcome to the Brain Games!';
 
 const gameFlow = (task, expression) => {
   console.log(greeting);
